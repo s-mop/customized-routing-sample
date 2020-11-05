@@ -9,6 +9,7 @@ import org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfigurati
 import org.springframework.cloud.loadbalancer.support.LoadBalancerClientFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import reactivefeign.spring.config.EnableReactiveFeignClients;
 
 import java.util.ArrayList;
 
@@ -16,6 +17,7 @@ import java.util.ArrayList;
 @EnableDiscoveryClient
 @AutoConfigureBefore(LoadBalancerAutoConfiguration.class)
 @ConditionalOnReactiveDiscoveryEnabled
+@EnableReactiveFeignClients(basePackages = "org.smop")
 public class EscortLoadBalancerClientFactoryConfig {
 
     @ConditionalOnMissingBean

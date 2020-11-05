@@ -1,4 +1,4 @@
-package org.smop.red.client;
+package org.smop.escort.sample.red.client;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;

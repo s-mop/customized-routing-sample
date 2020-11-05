@@ -1,4 +1,4 @@
-package org.smop.red;
+package org.smop.escort.sample.red;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

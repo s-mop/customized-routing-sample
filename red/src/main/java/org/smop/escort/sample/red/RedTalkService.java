@@ -1,7 +1,6 @@
-package org.smop.red;
+package org.smop.escort.sample.red;
 
-import org.smop.red.client.RedFluxClient;
-import org.smop.red.client.RedTalkClient;
+import org.smop.escort.sample.red.client.RedFluxClient;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Mono;

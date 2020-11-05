@@ -1,7 +1,6 @@
-package org.smop.blue;
+package org.smop.sample.scort.blue;
 
-import org.smop.red.client.RedFluxClient;
-import org.smop.red.client.RedTalkClient;
+import org.smop.escort.sample.red.client.RedFluxClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;

@@ -1,4 +1,4 @@
-package org.smop.escort.sample.gateway;
+package org.smop.sample.scort.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

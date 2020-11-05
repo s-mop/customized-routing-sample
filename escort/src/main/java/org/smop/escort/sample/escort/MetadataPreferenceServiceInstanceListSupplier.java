@@ -25,7 +25,7 @@ public class MetadataPreferenceServiceInstanceListSupplier
 		List<ServiceInstance> collect = serviceInstances.stream()
 				.filter(getMetadataPrimeTagPredicate())
 				.collect(Collectors.toList());
-		
+
 		if (collect.isEmpty())
 			return serviceInstances;
 		else
